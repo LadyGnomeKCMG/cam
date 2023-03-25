@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+#christs {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR00zpo2_V6d-GEkm3nZIAPC3abatHEIZfhrqE-0Mnp0dWTRpqmh-gg5gPcDwPRmxavFqI&usqp=CAU");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#churchill {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Cmglee_Cambridge_Churchill_College_entrance.jpg/330px-Cmglee_Cambridge_Churchill_College_entrance.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#clare {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Clare_college.jpg/1024px-Clare_college.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#clarehall {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Elmside_House.jpg/1280px-Elmside_House.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#corpus {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Corpus_Christi_College_New_Court%2C_Cambridge%2C_UK_-_Diliff.jpg/1920px-Corpus_Christi_College_New_Court%2C_Cambridge%2C_UK_-_Diliff.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#darwin {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/63/Darwin_College_-_geograph.org.uk_-_1333608.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#downing {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Downing_College_Chapel.jpg/330px-Downing_College_Chapel.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#emmanuel {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Emmanuel_College_Front_Court%2C_Cambridge%2C_UK_-_Diliff.jpg/1920px-Emmanuel_College_Front_Court%2C_Cambridge%2C_UK_-_Diliff.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#fitzwilliam {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/The_Grove_at_Fitzwilliam_College%2C_Cambridge_2017.jpg/1280px-The_Grove_at_Fitzwilliam_College%2C_Cambridge_2017.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#girton {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Girton_College%2C_Cambridge%2C_England%2C_1890s.jpg/1280px-Girton_College%2C_Cambridge%2C_England%2C_1890s.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gonville {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Cambridge_Gonville_and_Caius_College.jpg/800px-Cambridge_Gonville_and_Caius_College.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#homerton {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/The_Cavendish_Building_of_Homerton_College_Cambridge%2C_May_2011.jpg/1024px-The_Cavendish_Building_of_Homerton_College_Cambridge%2C_May_2011.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hughes {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Margaret_Wileman_Building%2C_Hughes_Hall.jpg/1024px-Margaret_Wileman_Building%2C_Hughes_Hall.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#jesus {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Jesus_College_Entrance.jpg/800px-Jesus_College_Entrance.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#kings {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Rear_of_the_King%27s_College_and_the_Gibbs%27_Building.jpg/1280px-Rear_of_the_King%27s_College_and_the_Gibbs%27_Building.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#lucy {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/LEP%2CLCFall2022%2C_0116.jpg/1280px-LEP%2CLCFall2022%2C_0116.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#magdalene {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e4/MagdaleneCollegeCam.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#murray {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Cmglee_Cambridge_New_Hall_Fountain_Court.jpg/1024px-Cmglee_Cambridge_New_Hall_Fountain_Court.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#newnham {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Cmglee_Cambridge_University_Newnham_College_dining_hall.jpg?download");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pembroke {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Graduation_Day%2C_Pembroke_College%2C_Cambridge.jpg/1920px-Graduation_Day%2C_Pembroke_College%2C_Cambridge.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#peterhouse {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Cambridge_Peterhouse_OldCourt.JPG/1024px-Cambridge_Peterhouse_OldCourt.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#queens {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Cambridge_Queens%27_Gatehouse.JPG/1024px-Cambridge_Queens%27_Gatehouse.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#robinson {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Robinson_College_Fascade.JPG/1280px-Robinson_College_Fascade.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#selwyn {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Selwyn_College_Old_Court%2C_Cambridge%2C_UK_-_Diliff.jpg/1920px-Selwyn_College_Old_Court%2C_Cambridge%2C_UK_-_Diliff.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sidney {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Cloister_Court%2C_Sidney_Sussex_College.jpg/800px-Cloister_Court%2C_Sidney_Sussex_College.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#stcatherine {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d4/St_Catharine%27s_College_Main_Court_in_Sunshine.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#stedmund {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/St_Edmund%27s_College_Chapel_and_Norfolk.jpg/1024px-St_Edmund%27s_College_Chapel_and_Norfolk.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#stjohn {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cambridge_-_St_John_College_-_New_Court.jpg/1920px-Cambridge_-_St_John_College_-_New_Court.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#trinity {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Trinity_College_-_Great_Court_02.jpg/1920px-Trinity_College_-_Great_Court_02.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#trinityhall {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/95/TrinityHallFrontCourtHighRes.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#wolfson {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  float: left;
+  margin: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3f/Bredon_house.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#toggle {
+  background: Gainsboro;
+  border: 0px solid white;
+  cursor: pointer;
+  padding: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin: 3px;
+  border-radius: 7px;
+}
+
+.body {
+  font-family: arial;
+}
+
+#boxtext {
+ background: white;
+ padding: 2px;
+ padding-left: 4px;
+ padding-right: 4px;
+}
+</style>
+</head>
+<body>
+<center>
+<button onclick="Christs()" id="toggle">Toggle Christs</button> 
+<button onclick="Churchill()" id="toggle">Toggle Churchill</button> 
+<button onclick="Clare()" id="toggle">Toggle Clare</button> 
+<button onclick="ClareHall()" id="toggle">Toggle Clare Hall</button>
+<button onclick="Corpus()" id="toggle">Toggle Corpus</button> 
+<button onclick="Darwin()" id="toggle">Toggle Darwin</button>
+<button onclick="Downing()" id="toggle">Toggle Downing</button>
+<button onclick="Emmanuel()" id="toggle">Toggle Emmanuel</button>
+<button onclick="Fitzwilliam()" id="toggle">Toggle Fitzwilliam</button>
+<button onclick="Girton()" id="toggle">Toggle Girton</button>
+<button onclick="Gonville()" id="toggle">Toggle Gonville & Caius</button>
+<button onclick="Homerton()" id="toggle">Toggle Homerton</button>
+<button onclick="Hughes()" id="toggle">Toggle Hughes Hall</button>
+<button onclick="Jesus()" id="toggle">Toggle Jesus</button>
+<button onclick="Kings()" id="toggle">Toggle King's</button>
+<button onclick="Lucy()" id="toggle">Toggle Lucy Cavendish</button>
+<button onclick="Magdalene()" id="toggle">Toggle Magdalene</button>
+<button onclick="Murray()" id="toggle">Toggle Murray Edwards</button>
+<button onclick="Kings()" id="toggle">Toggle King's</button>
+<button onclick="Newnham()" id="toggle">Toggle Newnham</button>
+<button onclick="Pembroke()" id="toggle">Toggle Pembroke</button>
+<button onclick="Peterhouse()" id="toggle">Toggle Peterhouse</button>
+<button onclick="Queens()" id="toggle">Toggle Queens'</button>
+<button onclick="Robinson()" id="toggle">Toggle Robinson</button>
+<button onclick="Selwyn()" id="toggle">Toggle Selwyn</button>
+<button onclick="Sidney()" id="toggle">Toggle Sidney Sussex</button>
+<button onclick="StCatherine()" id="toggle">Toggle St. Catherine's</button>
+<button onclick="StEdmund()" id="toggle">Toggle St. Edmund's</button>
+<button onclick="StJohn()" id="toggle">Toggle St. John's</button>
+<button onclick="Trinity()" id="toggle">Toggle Trinity</button>
+<button onclick="TrinityHall()" id="toggle">Toggle Trinity Hall</button>
+<button onclick="Wolfson()" id="toggle">Toggle Wolfson</button>
+</center>
+
+
+<h1 style="text-align: center;">Colleges</h1>
+
+<div style="padding-left: 10%; padding-right: 5%; font-family: arial; font-weight: bold;">
+<div id="christs">
+<p1 id="boxtext">Christs</p1>
+<button onclick="Christs()" id="remove">remove</button>
+</div>
+
+<div id="churchill">
+<p1 id="boxtext">Churchill</p1>
+<button onclick="Churchill()">remove</button>
+</div>
+
+<div id="clare">
+<p1 id="boxtext">Clare</p1>
+<button onclick="Clare()">remove</button>
+</div>
+
+<div id="clarehall">
+<p1 id="boxtext">Clare Hall</p1>
+<button onclick="ClareHall()">remove</button>
+</div>
+
+<div id="corpus">
+<p1 id="boxtext">Corpus Christi</p1>
+<button onclick="Corpus()" id="remove">remove</button>
+</div>
+
+<div id="darwin">
+<p1 id="boxtext">Darwin</p1>
+<button onclick="Darwin()">remove</button>
+</div>
+
+<div id="downing">
+<p1 id="boxtext">Downing</p1>
+<button onclick="Downing()">remove</button>
+</div>
+
+<div id="emmanuel">
+<p1 id="boxtext">Emmanuel</p1>
+<button onclick="Emmanuel()">remove</button>
+</div>
+
+<div id="fitzwilliam">
+<p1 id="boxtext">Fitzwilliam</p1>
+<button onclick="Fitzwilliam()">remove</button>
+</div>
+
+<div id="girton">
+<p1 id="boxtext">Girton</p1>
+<button onclick="Girton()">remove</button>
+</div>
+
+<div id="gonville">
+<p1 id="boxtext">Gonville & Caius</p1>
+<button onclick="Gonville()">remove</button>
+</div>
+
+<div id="homerton">
+<p1 id="boxtext">Homerton</p1>
+<button onclick="Homerton()">remove</button>
+</div>
+
+<div id="hughes">
+<p1 id="boxtext">Hughes Hall</p1>
+<button onclick="Hughes()">remove</button>
+</div>
+
+<div id="jesus">
+<p1 id="boxtext">Jesus</p1>
+<button onclick="Jesus()">remove</button>
+</div>
+
+<div id="kings">
+<p1 id="boxtext">King's</p1>
+<button onclick="Kings()">remove</button>
+</div>
+
+<div id="lucy">
+<p1 id="boxtext">Lucy Cavendish</p1>
+<button onclick="Lucy()">remove</button>
+</div>
+
+<div id="magdalene">
+<p1 id="boxtext">Magdalene</p1>
+<button onclick="Magdalene()">remove</button>
+</div>
+
+<div id="murray">
+<p1 id="boxtext">Murray Edwards</p1>
+<button onclick="Murray()">remove</button>
+</div>
+
+<div id="newnham">
+<p1 id="boxtext">Newnham</p1>
+<button onclick="Newnham()">remove</button>
+</div>
+
+<div id="pembroke">
+<p1 id="boxtext">Pembroke</p1>
+<button onclick="Pembroke()">remove</button>
+</div>
+
+<div id="peterhouse">
+<p1 id="boxtext">Peterhouse</p1>
+<button onclick="Peterhouse()">remove</button>
+</div>
+
+<div id="queens">
+<p1 id="boxtext">Queens'</p1>
+<button onclick="Queens()">remove</button>
+</div>
+
+<div id="robinson">
+<p1 id="boxtext">Robinson</p1>
+<button onclick="Robinson()">remove</button>
+</div>
+
+<div id="selwyn">
+<p1 id="boxtext">Selwyn</p1>
+<button onclick="Selwyn()">remove</button>
+</div>
+
+<div id="sidney">
+<p1 id="boxtext">Sidney Sussex</p1>
+<button onclick="Sidney()">remove</button>
+</div>
+
+<div id="stcatherine">
+<p1 id="boxtext">St. Catherine's</p1>
+<button onclick="StCatherine()">remove</button>
+</div>
+
+<div id="stedmund">
+<p1 id="boxtext">St. Edmund's</p1>
+<button onclick="StEdmund()">remove</button>
+</div>
+
+<div id="stjohn">
+<p1 id="boxtext">St. John's</p1>
+<button onclick="StJohn()">remove</button>
+</div>
+
+<div id="trinity">
+<p1 id="boxtext">Trinity</p1>
+<button onclick="Trinity()">remove</button>
+</div>
+
+<div id="trinityhall">
+<p1 id="boxtext">Trinity Hall</p1>
+<button onclick="TrinityHall()">remove</button>
+</div>
+
+<div id="wolfson">
+<p1 id="boxtext">Wolfson</p1>
+<button onclick="Wolfson()">remove</button>
+</div>
+
+</div>
+
+<script>
+function Christs() {
+  var x = document.getElementById("christs");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Churchill() {
+  var x = document.getElementById("churchill");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Clare() {
+  var x = document.getElementById("clare");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function ClareHall() {
+  var x = document.getElementById("clarehall");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Corpus() {
+  var x = document.getElementById("corpus");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Darwin() {
+  var x = document.getElementById("darwin");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Downing() {
+  var x = document.getElementById("downing");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Emmanuel() {
+  var x = document.getElementById("emmanuel");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Fitzwilliam() {
+  var x = document.getElementById("fitzwilliam");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Girton() {
+  var x = document.getElementById("girton");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Gonville() {
+  var x = document.getElementById("gonville");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Homerton() {
+  var x = document.getElementById("homerton");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Hughes() {
+  var x = document.getElementById("hughes");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Jesus() {
+  var x = document.getElementById("jesus");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Kings() {
+  var x = document.getElementById("kings");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Lucy() {
+  var x = document.getElementById("lucy");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Magdalene() {
+  var x = document.getElementById("magdalene");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Murray() {
+  var x = document.getElementById("murray");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Newnham() {
+  var x = document.getElementById("newnham");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Pembroke() {
+  var x = document.getElementById("pembroke");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Peterhouse() {
+  var x = document.getElementById("peterhouse");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Queens() {
+  var x = document.getElementById("queens");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Robinson() {
+  var x = document.getElementById("robinson");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Selwyn() {
+  var x = document.getElementById("selwyn");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Sidney() {
+  var x = document.getElementById("sidney");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function StCatherine() {
+  var x = document.getElementById("stcatherine");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function StEdmund() {
+  var x = document.getElementById("stedmund");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function StJohn() {
+  var x = document.getElementById("stjohn");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Trinity() {
+  var x = document.getElementById("trinity");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function TrinityHall() {
+  var x = document.getElementById("trinityhall");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Wolfson() {
+  var x = document.getElementById("wolfson");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+</script>
+
+</body>
+</html>
+
